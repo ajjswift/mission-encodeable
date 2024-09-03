@@ -6,7 +6,7 @@ import math
 # ----------------
 
 def calculate_population_size(current_population_size, growth_rate, years):
-    new_population_size = population_size * (population_growth ** years)
+    new_population_size = current_population_size * (growth_rate ** years)
     return new_population_size
 
 # ----------------
