@@ -4,10 +4,11 @@
 # Subprograms
 # ----------------
 def favourite_food(): # This is an example of a subprogram being defined
-  food = "Chocolate" # This is an example of a string
+  food = input("What is your favourite food? ")
   print(food) 
 
 # ----------------
 # Main program
 # ----------------
+
 favourite_food() # This is an example of a subprogram being called
