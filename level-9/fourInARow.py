@@ -1,3 +1,5 @@
+# Could not get to function using Mission Encodeable's provided code.
+
 # This program will simulate the classic For in a Row game
 
 # ----------------
