@@ -41,10 +41,9 @@ if addOrReceive == "r":
     random_joke = choose_random_joke(jokes)
     print("Random Joke:", random_joke)
 
-if addOrReceive == "a":
+elif addOrReceive == "a":
     joke = input("What's your joke? ")
     addJokeToFile(joke)
 
-
-
-
+else:
+    print("Invalid Choice!")
