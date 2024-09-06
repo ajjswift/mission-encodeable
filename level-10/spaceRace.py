@@ -29,15 +29,11 @@ def set_up_turtle(colour, y):
     new_turtle.pendown()
     return new_turtle
 
-
-
 # ----------------
 # Main program
 # ----------------
 
 set_up_background()
-
-
 mercury = set_up_turtle('light grey', -60)
 venus = set_up_turtle('yellow', -100)
 earth = set_up_turtle('blue', -140)
@@ -60,7 +56,7 @@ while not winner:
     venus.circle(120, extent=venus_extent)
     mercury.circle(80, extent=mercury_extent)
     total_mars_extent += mars_extent
-    total_earth_extent += earth_extent
+    total_earth_extent += earth_extent.
     total_venus_extent += venus_extent
     total_mercury_extent += mercury_extent
     if total_mars_extent >= 360:
