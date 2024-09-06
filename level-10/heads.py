@@ -17,6 +17,7 @@ import turtle
 # ----------------
 
 tim = turtle.Turtle()
+tim.hideturtle()
 tim.speed(100000000)
 tim.left(90)
 tim.up()
@@ -90,7 +91,18 @@ for i in range(127):
     tim.forward(0.1)
 
 tim.forward(73)
+tim.up()
+tim.goto(-55, 120)
+tim.down()
+tim.circle(25)
+tim.up()
+tim.left(90)
+tim.forward(25)
+tim.down()
 
-tim.position(150, -75)
+for i in range(360):
+    tim.forward(0.05)
+    tim.left(1)
 
-#turtle.done()
+
+turtle.done()
